@@ -1,0 +1,2 @@
+rootProject.name='MsgForward'
+include ':app'
