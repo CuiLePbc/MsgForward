@@ -1604,6 +1604,8 @@ style Base_Widget_MaterialComponents_TextInputLayout
 style CardView
 style CardView_Dark
 style CardView_Light
+style GrantorNoActionBar
+style GrantorNoDisplay
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents

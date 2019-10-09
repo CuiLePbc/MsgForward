@@ -59,7 +59,7 @@
 36        <receiver
 36-->/home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml:25:9-32:20
 37            android:name="com.cuile.msgforward.MsgReceiver"
-37-->/home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml:26:13-40
+37-->/home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml:26:13-60
 38            android:enabled="true"
 38-->/home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml:27:13-35
 39            android:exported="true" >
@@ -71,6 +71,13 @@
 41-->/home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml:30:25-79
 42            </intent-filter>
 43        </receiver>
-44    </application>
-45
-46</manifest>
+44
+45        <activity
+45-->[com.github.dfqin:grantor:2.5] /home/cuile/.gradle/caches/transforms-2/files-2.1/8d43f87a0751b6d02ebe04e54558ef9a/jetified-grantor-2.5/AndroidManifest.xml:15:9-17:55
+46            android:name="com.github.dfqin.grantor.PermissionActivity"
+46-->[com.github.dfqin:grantor:2.5] /home/cuile/.gradle/caches/transforms-2/files-2.1/8d43f87a0751b6d02ebe04e54558ef9a/jetified-grantor-2.5/AndroidManifest.xml:16:13-71
+47            android:theme="@style/GrantorNoDisplay" />
+47-->[com.github.dfqin:grantor:2.5] /home/cuile/.gradle/caches/transforms-2/files-2.1/8d43f87a0751b6d02ebe04e54558ef9a/jetified-grantor-2.5/AndroidManifest.xml:17:13-52
+48    </application>
+49
+50</manifest>

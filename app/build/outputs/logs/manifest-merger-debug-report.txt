@@ -7,6 +7,7 @@ INJECTED from /home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/mai
 MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] /home/cuile/.gradle/caches/transforms-2/files-2.1/a234cbfa22b2359e22668ad11a0cf180/navigation-ui-ktx-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.0.0] /home/cuile/.gradle/caches/transforms-2/files-2.1/5c1da4ed101df56d8aa354de9e0a17e0/navigation-ui-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] /home/cuile/.gradle/caches/transforms-2/files-2.1/6cad911ed26c43c61121174bf4c7b805/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.dfqin:grantor:2.5] /home/cuile/.gradle/caches/transforms-2/files-2.1/8d43f87a0751b6d02ebe04e54558ef9a/jetified-grantor-2.5/AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/cuile/.gradle/caches/transforms-2/files-2.1/c8e20fac6588eb16ab24e404418ba22e/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.0.2] /home/cuile/.gradle/caches/transforms-2/files-2.1/f814553452dd0feb1199fef45a423801/core-ktx-1.0.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/cuile/.gradle/caches/transforms-2/files-2.1/a31797b1d5fee200b136d542de05d8c3/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -73,6 +74,8 @@ application
 ADDED from /home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml:8:5-33:19
 MERGED from [com.google.android.material:material:1.0.0] /home/cuile/.gradle/caches/transforms-2/files-2.1/6cad911ed26c43c61121174bf4c7b805/material-1.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] /home/cuile/.gradle/caches/transforms-2/files-2.1/6cad911ed26c43c61121174bf4c7b805/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.dfqin:grantor:2.5] /home/cuile/.gradle/caches/transforms-2/files-2.1/8d43f87a0751b6d02ebe04e54558ef9a/jetified-grantor-2.5/AndroidManifest.xml:11:5-18:19
+MERGED from [com.github.dfqin:grantor:2.5] /home/cuile/.gradle/caches/transforms-2/files-2.1/8d43f87a0751b6d02ebe04e54558ef9a/jetified-grantor-2.5/AndroidManifest.xml:11:5-18:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/cuile/.gradle/caches/transforms-2/files-2.1/a31797b1d5fee200b136d542de05d8c3/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/cuile/.gradle/caches/transforms-2/files-2.1/a31797b1d5fee200b136d542de05d8c3/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.0.2] /home/cuile/.gradle/caches/transforms-2/files-2.1/78210307199941c5ac7605e3d3da55ce/core-1.0.2/AndroidManifest.xml:22:5-89
@@ -118,7 +121,7 @@ ADDED from /home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/A
 	android:exported
 		ADDED from /home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from /home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml:26:13-40
+		ADDED from /home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml:26:13-60
 intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
 ADDED from /home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml:29:13-31:29
 action#android.provider.Telephony.SMS_RECEIVED
@@ -135,6 +138,8 @@ MERGED from [androidx.navigation:navigation-ui:2.0.0] /home/cuile/.gradle/caches
 MERGED from [androidx.navigation:navigation-ui:2.0.0] /home/cuile/.gradle/caches/transforms-2/files-2.1/5c1da4ed101df56d8aa354de9e0a17e0/navigation-ui-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] /home/cuile/.gradle/caches/transforms-2/files-2.1/6cad911ed26c43c61121174bf4c7b805/material-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] /home/cuile/.gradle/caches/transforms-2/files-2.1/6cad911ed26c43c61121174bf4c7b805/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.dfqin:grantor:2.5] /home/cuile/.gradle/caches/transforms-2/files-2.1/8d43f87a0751b6d02ebe04e54558ef9a/jetified-grantor-2.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.dfqin:grantor:2.5] /home/cuile/.gradle/caches/transforms-2/files-2.1/8d43f87a0751b6d02ebe04e54558ef9a/jetified-grantor-2.5/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/cuile/.gradle/caches/transforms-2/files-2.1/c8e20fac6588eb16ab24e404418ba22e/appcompat-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/cuile/.gradle/caches/transforms-2/files-2.1/c8e20fac6588eb16ab24e404418ba22e/appcompat-1.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core-ktx:1.0.2] /home/cuile/.gradle/caches/transforms-2/files-2.1/f814553452dd0feb1199fef45a423801/core-ktx-1.0.2/AndroidManifest.xml:5:5-44
@@ -219,3 +224,9 @@ INJECTED from /home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/mai
 		INJECTED from /home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml
 		ADDED from /home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml
 		INJECTED from /home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/AndroidManifest.xml
+activity#com.github.dfqin.grantor.PermissionActivity
+ADDED from [com.github.dfqin:grantor:2.5] /home/cuile/.gradle/caches/transforms-2/files-2.1/8d43f87a0751b6d02ebe04e54558ef9a/jetified-grantor-2.5/AndroidManifest.xml:15:9-17:55
+	android:theme
+		ADDED from [com.github.dfqin:grantor:2.5] /home/cuile/.gradle/caches/transforms-2/files-2.1/8d43f87a0751b6d02ebe04e54558ef9a/jetified-grantor-2.5/AndroidManifest.xml:17:13-52
+	android:name
+		ADDED from [com.github.dfqin:grantor:2.5] /home/cuile/.gradle/caches/transforms-2/files-2.1/8d43f87a0751b6d02ebe04e54558ef9a/jetified-grantor-2.5/AndroidManifest.xml:16:13-71

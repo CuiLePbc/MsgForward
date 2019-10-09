@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <receiver
-            android:name=".MsgReceiver"
+            android:name="com.cuile.msgforward.MsgReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
