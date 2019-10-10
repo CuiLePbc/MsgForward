@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
         "merged": "/home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/build/intermediates/res/merged/debug/layout_fragment_second.xml.flat",
         "source": "/home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/src/main/res/layout/fragment_second.xml"
     },
