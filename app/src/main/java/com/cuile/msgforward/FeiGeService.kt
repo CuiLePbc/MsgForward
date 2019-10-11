@@ -18,3 +18,15 @@ interface FeiGeService {
     suspend fun sendMessage(@Body requestBody: RequestBody): ResponseBody
 
 }
+
+interface FangTangService {
+
+    companion object {
+        const val BASE_URL = "https://sc.ftqq.com/"
+        const val SC_KEY = "SCU49776T2a19f9f81f181cc78be559a0017bd13f5cc27bbaa2b30"
+    }
+
+    @GET("$SC_KEY.send")
+    suspend fun sendMessage(@QueryMap map: MutableMap<String, String>): ResponseBody
+
+}

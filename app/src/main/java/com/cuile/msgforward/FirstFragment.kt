@@ -41,5 +41,13 @@ class FirstFragment : Fragment() {
             override fun permissionGranted(permission: Array<out String>) {
             }
         }, "android.permission.RECEIVE_SMS")
+
+        PermissionsUtil.requestPermission(activity, object : PermissionListener{
+            override fun permissionDenied(permission: Array<out String>) {
+            }
+
+            override fun permissionGranted(permission: Array<out String>) {
+            }
+        }, "android.permission.SEND_SMS")
     }
 }
