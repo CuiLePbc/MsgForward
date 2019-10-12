@@ -3,17 +3,13 @@ package com.cuile.msgforward
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import android.provider.SyncStateContract
 import android.telephony.SmsMessage
 import android.text.format.DateFormat
 import android.util.Log
-import android.util.TimeUtils
-import android.widget.Toast
-import androidx.work.OneTimeWorkRequest
 import androidx.work.OneTimeWorkRequestBuilder
+import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import androidx.work.workDataOf
-import java.util.*
 
 class MsgReceiver : BroadcastReceiver() {
 
@@ -31,11 +27,19 @@ class MsgReceiver : BroadcastReceiver() {
             val time = DateFormat.format("yyyy-MM-dd HH:mm:ss", smsMsg.timestampMillis).toString()
 
             val msgData = workDataOf("MyMstContent" to arrayOf(from, body, time))
-            val forwardMsgWorkRequest =
+            val forwardMsgWork =
                 OneTimeWorkRequestBuilder<ForwardMsgWorker>()
-                    .setInputData(msgData)
+                    .setInputData(msgData).addTag("SendMsgByInternet")
                     .build()
-            WorkManager.getInstance(context).enqueue(forwardMsgWorkRequest)
+            WorkManager.getInstance(context).enqueue(forwardMsgWork)
+
+            WorkManager.getInstance(context).getWorkInfoByIdLiveData(forwardMsgWork.id)
+                .observeForever {
+                    if (it != null && it.state == WorkInfo.State.SUCCEEDED) {
+                        val result = it.outputData.getStringArray("FEI_GE_SEND_RESULT") ?: arrayOf("", "", "")
+                        Log.v(this.javaClass.simpleName, result[0] + result[1] + result[2])
+                    }
+                }
         }
 
     }

@@ -14,6 +14,10 @@ interface FeiGeService {
         const val APP_KEY = "a2a6bcddad127f223cc1b6bcd74b1669"
     }
 
+    @Headers(
+        "Host: u.ifeige.cn",
+        "Content-Type: application/json"
+    )
     @POST("api/message/send")
     suspend fun sendMessage(@Body requestBody: RequestBody): ResponseBody
 

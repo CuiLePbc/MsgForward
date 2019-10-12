@@ -29,28 +29,21 @@ class ForwardMsgWorker(private val appContext: Context, workerParams: WorkerPara
             val result = withContext(Dispatchers.IO) {
                 Log.v(javaClass.simpleName, msgArray[0] + msgArray[1] + msgArray[2])
 
-                //sendByFeige(msgArray[0], msgArray[1], msgArray[2])
-                val sendMsgResult = sendByFangTang(msgArray[0], msgArray[1], msgArray[2])
-                sendByTel(msgArray[0], msgArray[1], msgArray[2])
-                return@withContext workDataOf("FordwardMsgWorkerResult" to sendMsgResult.string())
+                val sendMsgResult = sendByFeige(msgArray[0], msgArray[1], msgArray[2])
+
+                val resultCode = Gson().fromJson(sendMsgResult.string(), FeiGeResponseBody::class.java).code
+
+                return@withContext resultCode == 200
             }
 
-            return Result.success(result)
+            return if (result) {
+                Result.success(workDataOf("FEI_GE_SEND_RESULT" to msgArray))
+            } else {
+                Result.failure()
+            }
         }
 
         return Result.failure()
-    }
-
-    private fun sendByTel(from: String, content: String, time: String) {
-        val msgStr = "From:$from,At:$time\nContent:$content"
-        val pendingIntent = PendingIntent.getBroadcast(appContext, 0, Intent(), 0)
-        SmsManager.getDefault().sendTextMessage(
-            "+8619909171893",
-            null,
-            msgStr,
-            pendingIntent,
-            null)
-
     }
 
     private suspend fun sendByFeige(from: String, content: String, time: String): ResponseBody {
