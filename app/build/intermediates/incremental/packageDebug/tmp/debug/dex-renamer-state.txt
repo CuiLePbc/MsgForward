@@ -1,7 +1,7 @@
-#Sat Oct 12 16:42:41 CST 2019
-base.0=/home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+#Thu Oct 17 21:12:40 CST 2019
+base.0=C\:\\ASworkspace\\MsgForward\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/cuile/Documents/workspace/ASWorkspace/MsgForward/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+base.1=C\:\\ASworkspace\\MsgForward\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
