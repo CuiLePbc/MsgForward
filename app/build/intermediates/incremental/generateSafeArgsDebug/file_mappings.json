@@ -1,1 +1,1 @@
-[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.cuile.msgforward.FirstFragmentDirections","com.cuile.msgforward.SecondFragmentDirections","com.cuile.msgforward.SecondFragmentArgs"]}]
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["com.cuile.msgforward.ui.FirstFragmentDirections","com.cuile.msgforward.ui.SecondFragmentDirections","com.cuile.msgforward.ui.SecondFragmentArgs"]}]

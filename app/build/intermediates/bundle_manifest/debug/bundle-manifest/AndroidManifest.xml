@@ -29,7 +29,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.cuile.msgforward.MainActivity"
+            android:name="com.cuile.msgforward.ui.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -40,7 +40,7 @@
         </activity>
 
         <receiver
-            android:name="com.cuile.msgforward.MsgReceiver"
+            android:name="com.cuile.msgforward.msgreceiver.MsgReceiver"
             android:enabled="true"
             android:exported="true" >
             <intent-filter>
@@ -52,6 +52,11 @@
             android:name="com.github.dfqin.grantor.PermissionActivity"
             android:theme="@style/GrantorNoDisplay" />
 
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.cuile.msgforward.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
         <provider
             android:name="androidx.work.impl.WorkManagerInitializer"
             android:authorities="com.cuile.msgforward.workmanager-init"
